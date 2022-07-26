@@ -16,7 +16,7 @@ jobs:
       steps:
         - name: Hello, GitHub Actions planet
           id: slack
-          uses: slackapi/slack-github-action@v1.14.0
+          uses: slackapi/slack-github-action@v1.19.0
           with:
             channel-id: 'github-universe'
             slack-message: 'Posting from GitHub Actions planet! Here is my greeting: ${{ github.event.inputs.greeting }}'
